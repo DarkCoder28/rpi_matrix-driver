@@ -1,0 +1,3 @@
+#!/bin/bash
+./build-arm && rsync -vrt4h --exclude '*.png' ./output/ devmatrix:~/cpp/ ; make clean
+#./build-arm && scp -r ./output/* devmatrix:~/cpp/ && make clean

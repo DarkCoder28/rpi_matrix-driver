@@ -1,0 +1,4 @@
+#!/bin/bash
+# On ARCH, use the `arm-none-linux-gnueabihf-toolchain-bin` AUR package to get the arm compiler toolchain
+make clean
+make COMPILE_ARM=true
